@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danie Titus — Aspiring Developer</title>
+  <meta name="description" content="Portfolio of Danie Titus T, B.Tech CSE student and aspiring developer." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-brand">
+        <span class="nav-brand-mark">DT</span>
+        <span class="nav-brand-name">Danie Titus</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">about</a>
+        <a href="#education">education</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="container">
+        <p class="file-tag">~/danie-titus/intro.txt</p>
+        <h1 class="hero-title">
+          Danie Titus T
+        </h1>
+        <p class="hero-role">
+          B.Tech CSE student <span class="dot-sep">·</span> Batch of 2026–2030 <span class="dot-sep">·</span> Year 1
+        </p>
+        <p class="hero-line">
+          I'm a first-year computer science student, currently learning the fundamentals
+          of programming and figuring out what kind of developer I want to become.
+          This site tracks that process<span class="cursor" aria-hidden="true">&nbsp;</span>
+        </p>
+        <div class="status-row">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Currently learning: DSA in C++ and the basics of web development</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="file-tag">about.md</p>
+        <h2 class="section-title">About</h2>
+        <div class="section-body">
+          <p>
+            My name is Danie Titus T, and I'm in my first year of a B.Tech in
+            Computer Science and Engineering (2026–2030). I'm early in my journey —
+            I don't have years of experience or a long list of shipped projects yet,
+            and I'd rather be upfront about that than pretend otherwise.
+          </p>
+          <p>
+            What I do have is curiosity and consistency. I spend time outside class
+            working through problems, reading documentation, and building small
+            things to understand how they work under the hood. This portfolio is
+            meant to grow alongside my coursework — every project added here is
+            something I actually built and understand, not filler.
+          </p>
+          <!--
+            EDIT ME: Replace the two paragraphs above with your own words —
+            your interests, what got you into CS, what you're focused on right now.
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+      <div class="container">
+        <p class="file-tag">education.log</p>
+        <h2 class="section-title">Education</h2>
+
+        <div class="edu-entry">
+          <div class="edu-meta">
+            <span class="edu-year">2026 — 2030</span>
+          </div>
+          <div class="edu-content">
+            <h3>B.Tech, Computer Science and Engineering</h3>
+            <p class="edu-sub">Currently in Year 1</p>
+            <p>
+              Focused right now on building a solid foundation: programming
+              fundamentals, data structures, and problem solving, alongside the
+              core mathematics and engineering coursework of the first year.
+            </p>
+            <!-- EDIT ME: add college/university name here if you'd like it public -->
+          </div>
+        </div>
+
+        <div class="edu-entry">
+          <div class="edu-meta">
+            <span class="edu-year">Earlier</span>
+          </div>
+          <div class="edu-content">
+            <h3>Schooling</h3>
+            <p>
+              <!-- EDIT ME: add your school name, board (CBSE/State/ICSE) and year of completion -->
+              Details to be added.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="file-tag">skills.json</p>
+        <h2 class="section-title">Skills</h2>
+        <p class="section-note">
+          An honest, first-year snapshot — sorted by how comfortable I currently am,
+          not by what looks impressive.
+        </p>
+
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3>Learning now</h3>
+            <ul class="skill-list">
+              <li>C / C++</li>
+              <li>Data Structures &amp; Algorithms</li>
+              <li>Python basics</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>Exploring</h3>
+            <ul class="skill-list">
+              <li>HTML &amp; CSS</li>
+              <li>JavaScript fundamentals</li>
+              <li>Git &amp; GitHub</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>Tools I use</h3>
+            <ul class="skill-list">
+              <li>VS Code</li>
+              <li>Linux basics</li>
+              <li>Command line</li>
+            </ul>
+          </div>
+        </div>
+        <!--
+          EDIT ME: Add, remove, or move items as you actually learn them.
+          Keep this list honest — it's more credible than a long generic one.
+        -->
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="file-tag">projects/</p>
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-entry project-placeholder">
+          <h3>First project — coming soon</h3>
+          <p>
+            I haven't published my first project yet — I'd rather add real,
+            working projects here as I finish them than fill this section with
+            placeholders that don't reflect actual work.
+          </p>
+          <p class="project-status">Status: in progress</p>
+        </div>
+        <!--
+          EDIT ME: Duplicate the block below for each real project once you have one.
+
+          <div class="project-entry">
+            <div class="project-head">
+              <h3>Project name</h3>
+              <span class="project-year">2026</span>
+            </div>
+            <p>One or two sentences on what it does and why you built it.</p>
+            <p class="project-stack">Built with: HTML, CSS, JavaScript</p>
+            <div class="project-links">
+              <a href="#">Source</a>
+              <a href="#">Live demo</a>
+            </div>
+          </div>
+        -->
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <p class="file-tag">contact.sh</p>
+        <h2 class="section-title">Contact</h2>
+        <p class="section-note">
+          Open to internships, collaborations, or just talking about code.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">email</span>
+            <a href="mailto:your.email@example.com">your.email@example.com</a>
+          </li>
+          <li>
+            <span class="contact-label">github</span>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">github.com/yourusername</a>
+          </li>
+          <li>
+            <span class="contact-label">linkedin</span>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourusername</a>
+          </li>
+        </ul>
+        <!-- EDIT ME: replace the placeholders above with your real email and profile links -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Danie Titus T <span class="dot-sep">·</span> B.Tech CSE, 2026–2030</p>
+      <p class="footer-built">Built with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
